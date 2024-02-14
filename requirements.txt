@@ -1,4 +1,4 @@
-
+nltk
 llama-index==0.10.1
 llama-index-core==0.10.3
 llama-index-multi-modal-llms-replicate==0.1.1
