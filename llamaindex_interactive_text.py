@@ -6,7 +6,7 @@ from llama_index.core.settings import Settings
 from langchain.embeddings.huggingface import HuggingFaceBgeEmbeddings
 
 
-os.environ["REPLICATE_API_TOKEN"] = "r8_YsEQrL7lwAwNCuWmyClDa1bh06TYArK4GDCjG"
+os.environ["REPLICATE_API_TOKEN"] = st.secrets.replicate_key
 
 st.header("Why Can't We All Just Get Along Chatbot")
 
