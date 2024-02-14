@@ -10,5 +10,4 @@ streamlit==1.31.1
 huggingface-hub==0.20.3
 replicate==0.23.1
 torch==2.0.1
-torchaudio==2.0.0
 sentence-transformers==2.3.1
