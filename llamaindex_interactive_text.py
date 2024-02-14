@@ -1,10 +1,13 @@
 import os
 import streamlit as st
+import nltk
 from llama_index.llms.replicate import Replicate
 from llama_index.core import SimpleDirectoryReader, VectorStoreIndex
 from llama_index.core.settings import Settings
 from langchain.embeddings.huggingface import HuggingFaceBgeEmbeddings
 
+
+nltk.download('stopwords')
 
 os.environ["REPLICATE_API_TOKEN"] = st.secrets.replicate_key
 
