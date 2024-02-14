@@ -15,7 +15,7 @@ Settings.llm = llm
 
 Settings.embed_model = HuggingFaceBgeEmbeddings(model_name="BAAI/bge-base-en")
 
-documents = SimpleDirectoryReader("/Users/es26698/Documents/Book_Club/book_chapter/").load_data()
+documents = SimpleDirectoryReader("book_chapter/").load_data()
 
 index = VectorStoreIndex.from_documents(
     documents,
